@@ -1,0 +1,5 @@
+fastapi==0.109.2
+uvicorn==0.27.1
+pytest==8.0.0
+httpx==0.26.0  # Required for TestClient
+pytest-cov==4.1.0  # For coverage reporting 
