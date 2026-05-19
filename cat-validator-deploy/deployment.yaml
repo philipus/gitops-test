@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
       - name: cat-validator
-        image: cat-validator:latest
-        imagePullPolicy: Never  # Use local image
+        image: ffloegel/cat-validator:0.1.0
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8000
           name: http
